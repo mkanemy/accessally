@@ -65,7 +65,7 @@ int main() {
         } else {
             // go back and check all higher positive types first (so we do not take from negative types when not needed)
             j = i;
-            while (j >= 1) {
+            while (j >= 3) {
                 j -= 2;
                 // check to ensure not giving A type to B type
                 if (j == 3 && i == 5) {
